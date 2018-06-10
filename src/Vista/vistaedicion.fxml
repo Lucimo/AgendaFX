@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="350.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Vista.ControladorEdicion">
+   <children>
+      <Text layoutX="53.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre" />
+      <Text layoutX="54.0" layoutY="179.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Apellido" />
+      <Text layoutX="52.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Telefono" />
+      <TextField fx:id="nom" layoutX="257.0" layoutY="95.0" />
+      <TextField fx:id="ape" layoutX="257.0" layoutY="162.0" />
+      <TextField fx:id="telf" layoutX="257.0" layoutY="233.0" />
+      <Button fx:id="cancel" layoutX="265.0" layoutY="311.0" mnemonicParsing="false" onAction="#salir" text="Cancelar" />
+      <Button fx:id="accept" layoutX="377.0" layoutY="311.0" mnemonicParsing="false" onAction="#enviar" text="Aceptar" />
+   </children>
+</AnchorPane>
